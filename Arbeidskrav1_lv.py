@@ -1,6 +1,8 @@
 """
 Arbeidskrav 1 - PY1010-1 25H Python-programmering
 
+Kode som beregner og presenterer de årlige kostnadene for elbil og bensinbil. 
+
 Av Lene Valle
 
 2025 08 20
@@ -8,7 +10,7 @@ Av Lene Valle
 
 #%% Hente inn årlig kjørelengde fra bruker
 
-km_aar = float(input('Legg inn en årlig kjørelengde (km): '))
+km_aar = float(input('Legg inn en årlig kjørelengde (km):\n'))
 
 #%% Forsikringskostnader
 
@@ -36,7 +38,8 @@ tot_bb = fors_bb+tfa+driv_bb+bom_bb  # Totale utgifter bensinbil
 
 #%% Utskrift
 
-print('\nDen totale årlige kostnaden for elbil basert på din årlige kjørelengde: \t', tot_eb, 'kr.')
+print('Den totale årlige kostnaden for elbil basert på din årlige kjørelengde: \t', tot_eb, 'kr.\n')
 print('Den totale årlige kostnaden for bensinbil basert på din årlige kjørelengde:\t', tot_bb, 'kr.\n') 
 
 print('Basert på din årlige kjørelengde sparer du', tot_bb-tot_eb, 'kr årlig på å kjøpe elbil.')
+
