@@ -37,10 +37,12 @@ tot_eb = fors_eb+tfa+driv_eb+bom_eb  # Totale utgiter elbil
 tot_bb = fors_bb+tfa+driv_bb+bom_bb  # Totale utgifter bensinbil 
 
 #%% Utskrift
+
 print('\n')
 print('Den totale årlige kostnaden for elbil basert på din årlige kjørelengde: \t', tot_eb, 'kr.')
 print('Den totale årlige kostnaden for bensinbil basert på din årlige kjørelengde:\t', tot_bb, 'kr.\n')
 print('Basert på din årlige kjørelengde sparer du', tot_bb-tot_eb, 'kr årlig på å kjøpe elbil.')
+
 
 
 
