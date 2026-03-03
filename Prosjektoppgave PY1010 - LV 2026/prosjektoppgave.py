@@ -96,6 +96,7 @@ plt.title('Antall henvendelser i uke 24')
 plt.xlabel('Ukedag')
 plt.ylabel('Antall henvendelser')
 
+plt.savefig('henvendelser_stolpediagram.pdf')
 plt.show()    
 
 print('\n\nDeloppgave b)')
@@ -209,6 +210,7 @@ plt.pie(antall_henvendelser_norm, labels = my_labels, autopct = '%.1f%%',
 
 plt.title('\nAntall henvendelser per tidsbolk')
 
+plt.savefig('henvendelser_kakediagram.pdf')
 plt.show()
 
 print('\n\nDeloppgave e)')
@@ -254,6 +256,7 @@ print('\n\nDeloppgave f)')
 print(f'\nSelskapets Net Promoter Score er {int(np.round(nps))} basert på {antall_svar} henvendelser.'
     f' {len(score)-antall_svar} gav ingen tilbakemelding.'
 )
+
 
 
 
