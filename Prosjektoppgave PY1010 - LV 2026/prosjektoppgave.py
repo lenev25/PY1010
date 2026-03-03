@@ -155,7 +155,7 @@ gjen_varighet = konverter_sek_to_hms(np.floor(gjennomsnittlig))
 print('\n\nDeloppgave d)')
 
 print(f'\nGjennomsnittlig samtaletid i uke 24 var {gjen_varighet[0]} timer, '
-    f'{gjen_varighet[1]} minutter og {min_varighet[2]} sekunder.'
+    f'{gjen_varighet[1]} minutter og {gjen_varighet[2]} sekunder.'
 )
 
 # Deloppgave e) Finner antall henvendelser i uke 24 fordelt på tidsbolker og 
@@ -254,5 +254,6 @@ print('\n\nDeloppgave f)')
 print(f'\nSelskapets Net Promoter Score er {int(np.round(nps))} basert på {antall_svar} henvendelser.'
     f' {len(score)-antall_svar} gav ingen tilbakemelding.'
 )
+
 
 
